@@ -205,6 +205,7 @@
 		815653961C2D45BD004E97F4 /* libavutil.pc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libavutil.pc; sourceTree = "<group>"; };
 		815653971C2D45BD004E97F4 /* libswresample.pc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libswresample.pc; sourceTree = "<group>"; };
 		815653981C2D45BD004E97F4 /* libswscale.pc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libswscale.pc; sourceTree = "<group>"; };
+		815655471C2D496E004E97F4 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +265,7 @@
 		815650641C2D2238004E97F4 /* FFmpegXcode */ = {
 			isa = PBXGroup;
 			children = (
+				815655471C2D496E004E97F4 /* readme.md */,
 				815651141C2D263E004E97F4 /* compat */,
 				8156514B1C2D3C57004E97F4 /* ffmpeg_videotoolbox.c */,
 				815651491C2D3C15004E97F4 /* ffmpeg_filter.c */,

@@ -4143,7 +4143,6 @@ int main(int argc, char **argv)
 
     term_init();
 
-    av_log(NULL, AV_LOG_ERROR, "debug: hello world!\n");
     /* parse options and open all input/output files */
     ret = ffmpeg_parse_options(argc, argv);
     if (ret < 0)
