@@ -699,7 +699,7 @@
 					"$(PROJECT_DIR)/FFmpeg/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = $SOURCE_ROOT/../bin/include;
+				USER_HEADER_SEARCH_PATHS = $SOURCE_ROOT/FFmpeg/include;
 			};
 			name = Debug;
 		};
@@ -715,7 +715,7 @@
 					"$(PROJECT_DIR)/FFmpeg/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = $SOURCE_ROOT/../bin/include;
+				USER_HEADER_SEARCH_PATHS = $SOURCE_ROOT/FFmpeg/include;
 			};
 			name = Release;
 		};
@@ -738,6 +738,7 @@
 				8156506B1C2D2238004E97F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
